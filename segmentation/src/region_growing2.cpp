@@ -39,8 +39,8 @@
 
 #include <pcl/point_types.h>
 #include <pcl/impl/instantiate.hpp>
-#include "region_growing2.h"
-#include "region_growing2.hpp"
+#include <pcl/segmentation/region_growing2.h>
+#include <pcl/segmentation/impl/region_growing2.hpp>
 
 // Instantiations of specific point types
 PCL_INSTANTIATE(RegionGrowing2, PCL_XYZ_POINT_TYPES)
