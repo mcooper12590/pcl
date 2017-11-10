@@ -418,6 +418,7 @@ pcl::RegionGrowing2<PointT, NormalT>::applySmoothRegionGrowing2Algorithm ()
       if (point_labels_[index] == -1)
       {
         seed = index;
+	seed_counter = i_seed;
         break;
       }
     }
