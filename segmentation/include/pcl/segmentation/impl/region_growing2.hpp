@@ -40,7 +40,7 @@
 #ifndef PCL_SEGMENTATION_REGION_GROWING2_HPP_
 #define PCL_SEGMENTATION_REGION_GROWING2_HPP_
 
-#include "region_growing2.h"
+#include <pcl/segmentation/region_growing2.h>
 
 #include <pcl/search/search.h>
 #include <pcl/search/kdtree.h>
